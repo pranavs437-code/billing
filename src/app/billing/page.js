@@ -55,11 +55,13 @@ export default function BillingPage() {
 
   const message =
     `Anadi Industries LLP\n\n` +
+    `Pay your bill on the number:9810017422\n\n` +
     `House No: ${houseNo}\n` +
     `Phone: ${phoneNo}\n` +
     `Date: ${date}\n\n` +
     `Bill Details:\n${billLines}\n\n` +
     `Grand Total: ₹${total}\n\n` +
+    `Pay your bill on the number: 9810017422\n\n` +
     `Health isn't a goal — it's a lifestyle`;
 
   const res = await fetch('/billing/api/generate', {

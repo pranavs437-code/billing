@@ -53,11 +53,13 @@ export default function SendBillsPage() {
 
     const message =
     `Anadi industries LLP\n\n`+
+    `\n\nPay your bill on the number: 9810017422\n\n` +
       `Customer Address/ No - ${houseNo}\n` +
       `Mobile No - ${phoneNo}\n` +
       `Delivered by - ${user}\n` +
       `Products:\n${productLines}\n\n` +
-      `Total Bill - ₹${total}\n` 
+      `Total Bill - ₹${total}\n\n` +
+      `Pay your bill on the number: 9810017422\n\n`
       // `(Billing Month: ${monthName-1})`
       ;
 
@@ -122,3 +124,22 @@ export default function SendBillsPage() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
